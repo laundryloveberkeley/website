@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700
 }
 
@@ -161,7 +161,7 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .navbar-custom {
-    background-color: #222;
+    background-color: #fff;
     border-color: transparent
 }
 
