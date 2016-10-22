@@ -62,7 +62,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503
+    /*color: #2d81c5*/
 }
 
 .img-centered {
@@ -89,7 +89,7 @@ a:hover {
 .btn-primary:hover,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #fec503;
+    /*background-color: #2d81c5;*/
     border-color: #f6bf01
 }
 
@@ -132,7 +132,7 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl:hover,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
+   /* background-color: #2d81c5;*/
     border-color: #f6bf01
 }
 
@@ -174,13 +174,13 @@ fieldset[disabled] .btn-xl:hover {
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover {
-    color: #fec503
+    /*color: #2d81c5*/
 }
 
 .navbar-custom .nav li a,
 .navbar-custom .navbar-toggle {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
+
     text-transform: uppercase
 }
 
@@ -192,6 +192,7 @@ fieldset[disabled] .btn-xl:hover {
     background-color: #f1010a;
     border-color: #f1010a;
     font-size: 12px
+    color:#fff;
 }
 
 .navbar-custom .navbar-toggle:focus,
@@ -219,12 +220,13 @@ fieldset[disabled] .btn-xl:hover {
 .navbar-custom .navbar-nav>.active>a:focus,
 .navbar-custom .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #fec503
+    background-color: #2d81c5
 }
+
 
 @media (min-width:768px) {
     .navbar-custom {
-        background-color: transparent;
+        background-color: #fff;
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -241,9 +243,12 @@ fieldset[disabled] .btn-xl:hover {
         border-radius: 3px
     }
     .navbar-custom.affix {
-        background-color: #222;
-        padding: 10px 0
+        background-color: #fff;
+        padding: 10px 0;
+        color: #222;
     }
+
+
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em
     }
@@ -861,4 +866,7 @@ img::-moz-selection {
 		border-radius:10px;
 		top:-10px;
 	}
+}
+#collapseMenu {
+    color:#fff;
 }
